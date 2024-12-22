@@ -1,5 +1,9 @@
 
 
+![Uploading Carnac_AARuPCSy7K.png…]()
+
+
+
 # Remote Shutdown Guide
 
 This guide details how to remotely shut down a computer using various methods and programming scripts across Windows, Python, and Bash.
