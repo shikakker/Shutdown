@@ -1,6 +1,5 @@
+![Carnac_AARuPCSy7K](https://github.com/user-attachments/assets/a84e1f2a-fe3f-498c-a038-da7ea2f19306)
 
-
-![Uploading Carnac_AARuPCSy7K.png…]()
 
 
 
