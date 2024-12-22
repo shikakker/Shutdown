@@ -94,8 +94,9 @@ ssh user@192.168.1.100 "sudo shutdown now"
 
 ## Visual Overview
 
-![Remote Shutdown Diagram](https://via.placeholder.com/800x400?text=Remote+Shutdown+Workflow)
+![Remote Shutdown](![Carnac_AARuPCSy7K](https://github.com/user-attachments/assets/ea92b9fa-5678-43ff-ac39-b47b9d2f77a6)
+)
 
 ---
 
-For more examples and advanced usage, check out [GitHub Gist Repository](https://github.com/example/remote-shutdown).
+For more examples and advanced usage, check out [GitHub Gist Repository](https://github.com/shikakker/Shutdown).
