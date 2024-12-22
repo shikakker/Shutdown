@@ -94,8 +94,7 @@ ssh user@192.168.1.100 "sudo shutdown now"
 
 ## Visual Overview
 
-![Remote Shutdown](![Carnac_AARuPCSy7K](https://github.com/user-attachments/assets/ea92b9fa-5678-43ff-ac39-b47b9d2f77a6)
-)
+![Remote Shutdown](https://github.com/user-attachments/assets/a84e1f2a-fe3f-498c-a038-da7ea2f19306)
 
 ---
 
