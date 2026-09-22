@@ -53,12 +53,12 @@ def validate_delay(value: int) -> int:
 
 def build_windows_plan(action: str, target: str, delay_seconds: int) -> ShutdownPlan:
     mode = "/s" if action == "shutdown" else "/r"
-    remote = "" if target == "local" else f" /m \\{target}"
+    remote = "" if target == "local" else f" /m \\\\{target}"
     command = (
         f'shutdown {mode} /t {delay_seconds}{remote} '
         '/c "Planned maintenance - save your work"'
     )
-    abort = "shutdown /a" if target == "local" else f"shutdown /a /m \\{target}"
+    abort = "shutdown /a" if target == "local" else f"shutdown /a /m \\\\{target}"
     return ShutdownPlan(
         platform="windows",
         action=action,
