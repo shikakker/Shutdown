@@ -56,3 +56,12 @@ The previous repository primarily consisted of copy-paste commands such as `shut
 The repository now contains a testable planner that only prints a reviewed maintenance plan. It cannot execute the command, requires a non-immediate delay, validates remote target/user syntax and always emits an abort command.
 
 No device was shut down or restarted; no remote service/firewall was enabled; no credential, merge or production environment was changed.
+
+## 2026-09-23 verification refresh
+
+- Runtime head remains `a2ea61af4afbfe5a2b216ab998fbb93fc06e3707`; no new P0/P1 was found in the inspected target/delay/remote-user planner boundary.
+- GitHub Quality run `35700160969`: **SUCCESS** — py_compile and 5/5 tests PASS.
+- The repository still only prints reviewed commands; it never executes shutdown/restart, firewall, registry or remote-service actions.
+- No canonical Vercel project is expected for this CLI/documentation product.
+
+Status remains **PARTIAL** only for broader platform/manual command review. Keep Draft; no device action or merge.
